@@ -1,3 +1,6 @@
+import like from '../../assets/like.svg';
+import unLike from '../../assets/unlike.svg';
+
 const LikeUnlike = () => {
     return (
         <div className="flex gap-10 w-48">
@@ -5,7 +8,7 @@ const LikeUnlike = () => {
                 <div className="shrink-0">
                     <img
                         className="w-5 block"
-                        src={''}
+                        src={like}
                         alt="Like"
                     />
                 </div>
@@ -19,7 +22,7 @@ const LikeUnlike = () => {
                 <div className="shrink-0">
                     <img
                         className="w-5 block"
-                        src={''}
+                        src={unLike}
                         alt="Unlike"
                     />
                 </div>

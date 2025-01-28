@@ -1,10 +1,12 @@
+import Video from "./pages/Video";
+
 function App() {
 
   return (
-    <>
-    <h1>Hello World</h1>
-    </>
+    <div className="bg-gray-800">
+      <Video />
+    </div>
   )
 }
 
-export default App
+export default App;

@@ -4,9 +4,9 @@ const RelatedItem = () => {
             <div
                 className="relative w-[168px] h-[94px] flex-none duration-300 hover:scale-[1.03]"
             >
-                <a to={``}>
+                <a href="video.html">
                     <img
-                        src=''
+                        src="https://i.ytimg.com/vi/MDCp_rjGCrQ/hqdefault.jpg"
                         className="object-cover"
                         alt="Some video title"
                     />
@@ -14,7 +14,7 @@ const RelatedItem = () => {
                 <p
                     className="absolute right-2 bottom-2 bg-gray-900 text-gray-100 text-xs px-1 py"
                 >
-                    {}
+                    11:42
                 </p>
             </div>
 
@@ -23,7 +23,7 @@ const RelatedItem = () => {
                     <p
                         className="text-slate-900 text-sm font-semibold"
                     >
-                        {}
+                        Some video title
                     </p>
                 </a>
                 <a
@@ -33,7 +33,7 @@ const RelatedItem = () => {
                     As Sunnah Skill Development Institute
                 </a>
                 <p className="text-gray-400 text-xs mt-1">
-                    {} views . {}
+                    831 views . 12 March 2024
                 </p>
             </div>
         </div>
