@@ -1,0 +1,19 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "title": "Introduction to Node.js",
+            "description": "Learn the basics of Node.js and Express.js"
+        },
+        {
+            "id": 2,
+            "title": "Understanding APIs",
+            "description": "Learn how to create and use APIs with Node.js"
+        },
+        {
+            "id": 3,
+            "title": "Video Streaming Example",
+            "description": "An example of streaming video data from a Node.js server"
+        }
+    ]
+}
