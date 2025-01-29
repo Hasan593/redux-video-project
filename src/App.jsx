@@ -1,11 +1,10 @@
-import Video from "./pages/Video";
+import { RouterProvider } from "react-router-dom";
+import route from "./router/Route";
 
 function App() {
 
   return (
-    <div className="bg-gray-800">
-      <Video />
-    </div>
+    <RouterProvider router={route} />
   )
 }
 

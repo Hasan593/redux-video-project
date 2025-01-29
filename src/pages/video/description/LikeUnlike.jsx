@@ -1,5 +1,5 @@
-import like from '../../assets/like.svg';
-import unLike from '../../assets/unlike.svg';
+import like from '../../../assets/like.svg';
+import unLike from '../../../assets/unlike.svg';
 
 const LikeUnlike = () => {
     return (
