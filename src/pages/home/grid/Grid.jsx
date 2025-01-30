@@ -1,6 +1,17 @@
+import { useEffect } from "react";
 import GridItem from "./GridItem";
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchVideos } from "../../../features/videos";
 
 const Grid = () => {
+
+    const videos = useSelector(state => state.videoSlice.videos)
+    console.log(videos)
+    const dispatche = useDispatch();
+    useEffect(()=>{
+        dispatche(fetchVideos())
+    }, [dispatche]);
+
     return (
         <section className="pt-12">
             <section className="pt-12">
